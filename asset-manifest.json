@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/fcc-calculator/static/css/main.cf1e0c87.chunk.css",
+    "main.js": "/fcc-calculator/static/js/main.039086f6.chunk.js",
+    "main.js.map": "/fcc-calculator/static/js/main.039086f6.chunk.js.map",
+    "runtime-main.js": "/fcc-calculator/static/js/runtime-main.602fff28.js",
+    "runtime-main.js.map": "/fcc-calculator/static/js/runtime-main.602fff28.js.map",
+    "static/js/2.d7e6d510.chunk.js": "/fcc-calculator/static/js/2.d7e6d510.chunk.js",
+    "static/js/2.d7e6d510.chunk.js.map": "/fcc-calculator/static/js/2.d7e6d510.chunk.js.map",
+    "index.html": "/fcc-calculator/index.html",
+    "precache-manifest.737101d61395be5d15f248e395acfde9.js": "/fcc-calculator/precache-manifest.737101d61395be5d15f248e395acfde9.js",
+    "service-worker.js": "/fcc-calculator/service-worker.js",
+    "static/css/main.cf1e0c87.chunk.css.map": "/fcc-calculator/static/css/main.cf1e0c87.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.602fff28.js",
+    "static/js/2.d7e6d510.chunk.js",
+    "static/css/main.cf1e0c87.chunk.css",
+    "static/js/main.039086f6.chunk.js"
+  ]
+}
