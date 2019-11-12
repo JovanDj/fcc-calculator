@@ -3,9 +3,13 @@ import "./Input.css";
 
 const Input = props => {
   return (
-    <div id="display" className="input">
-      {props.input}
-    </div>
+    <input
+      value={props.input}
+      placeholder={props.inputd}
+      readOnly
+      id="display"
+      className="input"
+    ></input>
   );
 };
 

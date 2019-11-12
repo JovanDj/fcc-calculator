@@ -4,6 +4,7 @@ import "./App.css";
 import Button from "./components/Button";
 import ClearButton from "./components/ClearButton";
 import Input from "./components/Input";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -15,16 +16,18 @@ class App extends Component {
   addToInput = val => {
     const { input } = this.state;
 
-    // if (input === "0") {
-    //   this.setState({ input: "" });
-    // }
+    if (val === "0") {
+      console.log("entered 0");
+      if (input.indexOf(0) === 0) {
+        return;
+      }
+    }
 
-    // if (input === "" && val === "0") {
-    //   this.setState({ input: "" });
-    //   return;
-    // }
-
-    console.log(input);
+    if (val === ".") {
+      if (input.indexOf(0) === 0) {
+        return;
+      }
+    }
 
     // if (input.split("") && val === ".") {
     //   return;
@@ -104,7 +107,7 @@ class App extends Component {
           <div className="row">
             <ClearButton
               id={"clear"}
-              handleClear={() => this.setState({ input: "0" })}
+              handleClear={() => this.setState({ input: "" })}
             >
               Clear
             </ClearButton>
